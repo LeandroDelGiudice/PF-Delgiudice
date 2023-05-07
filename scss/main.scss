@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* headers */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(11, 11, 60);
+    background-color: rgb(111, 237, 183);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header :hover {
+    color: rgb(61, 16, 16);
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.header a img {
+    width: 160px;
+}
+
+/* navs */
+.nav ul {
+    display: flex;
+    list-style: none;
+    width: 900px;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: rgb(91, 91, 215);
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* footers */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(45, 216, 129);
+    min-height: 15vh;
+
+}
+
+.footer ul {
+    margin: 10px;
+    display: flex;
+    list-style: none;
+    :hover{
+        transform: scale(1.05);
+        transition: 300ms;
+        }
+}
+
+.red-social{
+    width: 70px;
+    height: 70px;
+    
+}
+
+/* typo y flex  empresas */
+.section-empresas {
+    display: flex;
+    font-family: "Uni Sans Heavy Caps";
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+/* mains */
+#main-index {
+    display: flex;
+    min-height: 65vh;
+    color: rgb(61, 16, 16);
+    background-image: url(../recursos/Imagenbase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-contacto {
+    display: flex;
+    min-height: 65vh;
+    color: rgb(61, 16, 16);
+    background-image: linear-gradient(to top, rgb(62, 57, 57), rgb(239, 230, 230));
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+}
+ form {
+    width: 300px;
+    margin: 0 auto;
+    color:rgb(161, 161, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+ .imput {
+    margin: 10px;
+    font-style: italic;
+ }
+ .enviar{
+    margin: 10px;
+    font-weight: 500;
+    color:  rgb(91, 91, 215);
+    background-color: rgb(45, 216, 129);
+ }
+     
+      
+#main-quienes-somos {
+    min-height: 65vh;
+    color: rgb(61, 16, 16);
+    background-image: linear-gradient(to top, rgb(62, 57, 57), rgb(239, 230, 230));
+}
+
+#main-profesionales {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 65vh;
+    color: rgb(61, 16, 16);
+    background-image: linear-gradient(to top, rgb(62, 57, 57), rgb(239, 230, 230));
+}
+
+#main-empresas {
+    display: flex;
+    min-height: 65vh;
+    color: rgb(61, 16, 16);
+    background-image: linear-gradient(to top, rgb(62, 57, 57), rgb(239, 230, 230));
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-end;
+}
+
+
+/* boton whatapp */
+.boton-whatsapp  {
+    display: flex;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+    }
+.boton-whatsapp :hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+h2 {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* typo */
+@font-face {
+    font-family: "Uni Sans Heavy Caps";
+    src: url(../recursos/UniSansHeavy.otf);
+}
+
+h1 {
+    padding: 20px;
+    font-family: "Uni Sans Heavy Caps";
+}
+
+h3 {
+    font-family: "Uni Sans Heavy Caps";
+    padding: 5px;
+}
+
+/* boton arriba */
+.boton-arriba {
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+    color: white;
+    background-color: rgb(60, 55, 55);
+}
+
+/*Mobilelast - Max width*/
+@media (max-width: 720px) {
+    .header {
+        justify-content: safe;
+    }
+
+    .nav ul {
+        align-items: self-start;
+        display: list-item;
+        width: 250px;
+    }
+}
