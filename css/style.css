@@ -100,7 +100,6 @@ form {
   background-color: #2dd881; }
 
 #main-quienes-somos {
-  display: flex;
   min-height: 65vh;
   color: #3d1010;
   background-image: linear-gradient(to top, #3e3939, #efe6e6); }
