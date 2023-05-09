@@ -11,21 +11,19 @@
   justify-content: space-between;
   align-items: center; }
 
-.nav :hover {
+.nav :hover, .logo :hover :hover {
   color: #3d1010;
   transform: scale(1.02);
   transition: 300ms; }
 
 .logo :hover {
-  color: #3d1010;
-  transform: scale(1.05);
-  transition: 300ms; }
+  transform: scale(1.05); }
 
 .header a img {
   width: 160px; }
 
 /* navs */
-.nav ul {
+.nav ul, .logo :hover ul {
   display: flex;
   list-style: none;
   width: 900px; }
@@ -47,13 +45,13 @@ a {
 
 #main-contacto {
   display: flex;
-  min-height: 65vh;
-  color: #3d1010;
-  background-image: linear-gradient(to top, #3e3939, #efe6e6);
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  align-content: space-between; }
+  align-content: space-between;
+  min-height: 65vh;
+  color: #3d1010;
+  background-image: linear-gradient(to top, #3e3939, #efe6e6); }
 
 form {
   width: 300px;
@@ -89,12 +87,12 @@ form {
 
 #main-empresas {
   display: flex;
-  min-height: 65vh;
-  color: #3d1010;
-  background-image: linear-gradient(to top, #3e3939, #efe6e6);
   flex-direction: row;
   align-items: center;
-  align-content: flex-end; }
+  align-content: flex-end;
+  min-height: 65vh;
+  color: #3d1010;
+  background-image: linear-gradient(to top, #3e3939, #efe6e6); }
 
 .footer {
   display: flex;
@@ -173,7 +171,7 @@ h4 {
 @media (max-width: 720px) {
   .header {
     justify-content: safe; }
-  .nav ul {
+  .nav ul, .logo :hover ul {
     align-items: self-start;
     display: list-item;
     width: 250px; } }

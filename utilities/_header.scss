@@ -13,9 +13,8 @@
     transition: 300ms;
 }
 .logo :hover {
-    color: rgb(61, 16, 16);
+    @extend .nav;
     transform: scale(1.05);
-    transition: 300ms;
 }
 .header a img {
     width: 160px;

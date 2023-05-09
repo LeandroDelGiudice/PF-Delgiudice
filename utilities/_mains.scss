@@ -9,13 +9,11 @@
 
 #main-contacto {
     display: flex;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image: $fondo-main;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     align-content: space-between;
+    @include colorsize-mains;
 }
     form {
     width: 300px;
@@ -36,9 +34,8 @@
      
       
 #main-quienes-somos {
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image:$fondo-main;
+    @include colorsize-mains;
+   
 }
 
 #main-profesionales {
@@ -48,17 +45,13 @@
     align-items: baseline;
     flex-wrap: wrap;
     flex-direction: column;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image:$fondo-main;
+    @include colorsize-mains;
 }
 
 #main-empresas {
     display: flex;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image: $fondo-main;
     flex-direction: row;
     align-items: center;
     align-content: flex-end;
+    @include colorsize-mains;
 }

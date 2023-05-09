@@ -1,8 +1,10 @@
 @import '../utilities/variables';
+@import '../utilities/mixins';
 @import '../utilities/reset';
 @import '../utilities/header';
 @import '../utilities/mains';
 @import '../utilities/footer';
+
 /* typo */
 @font-face {
     font-family: "Uni Sans Heavy Caps";
