@@ -1,76 +1,31 @@
-$fondo-header:rgb(111, 237, 183);
-$fondo-footer:rgb(45, 216, 129);
-$fondo-main:linear-gradient(to top, rgb(62, 57, 57), rgb(239, 230, 230));
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import '../utilities/variables';
+@import '../utilities/reset';
+@import '../utilities/header';
+@import '../utilities/mains';
+@import '../utilities/footer';
+/* typo */
+@font-face {
+    font-family: "Uni Sans Heavy Caps";
+    src: url(../recursos/UniSansHeavy.otf);
 }
-
-/* headers */
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    color: rgb(11, 11, 60);
-    background-color: $fondo-header;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav :hover {
-    color: rgb(61, 16, 16);
-    transform: scale(1.02);
-    transition: 300ms;
-}
-.logo :hover {
-    color: rgb(61, 16, 16);
-    transform: scale(1.05);
-    transition: 300ms;
-}
-.header a img {
-    width: 160px;
-}
-
-/* navs */
-.nav ul {
-    display: flex;
-    list-style: none;
-    width: 900px;
-}
-     a {
-    text-decoration: none;
-    color: rgb(91, 91, 215);
-    font-size: medium;
-    font-weight: bold;
+h1 {
     padding: 20px;
+    font-family: "Uni Sans Heavy Caps";
 }
-
-/* footers */
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+h2 {
+    padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: $fondo-footer;
-    min-height: 15vh;
-
-}
-     ul {
-    margin: 10px;
-    display: flex;
-    list-style: none;
-    :hover{
-        transform: scale(1.05);
-        transition: 300ms;
-        }
 }
 
-.red-social{
-    width: 70px;
-    height: 70px;
-    
+h3 {
+    font-family: "Uni Sans Heavy Caps";
+    padding: 5px;
 }
-
+h4 {
+    font-family: "Uni Sans Heavy Caps";
+    padding: 5px;
+    margin:0px;
+}
 /* typo y flex  empresas */
 .section-empresas {
     display: flex;
@@ -81,113 +36,18 @@ $fondo-main:linear-gradient(to top, rgb(62, 57, 57), rgb(239, 230, 230));
     justify-content: space-around;
     align-items: center;
    }
-
-/* mains */
-#main-index {
-    display: flex;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image: url(../recursos/Imagenbase.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#main-contacto {
-    display: flex;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image: $fondo-main;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: space-between;
-}
-    form {
-    width: 300px;
-    margin: 0 auto;
-    color:rgb(161, 161, 230);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
- }
-    .imput {
-    margin: 10px;
-    font-style: italic;
- }
-    .enviar{
-    margin: 10px;
-    font-weight: 500;
-    color:  rgb(91, 91, 215);
-    background-color: rgb(45, 216, 129);
- }
-     
-      
-#main-quienes-somos {
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image:$fondo-main;
-}
-
-#main-profesionales {
-    display: flex;
-    align-content: flex-start;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    flex-direction: column;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image:$fondo-main;
-}
-
-#main-empresas {
-    display: flex;
-    min-height: 65vh;
-    color: rgb(61, 16, 16);
-    background-image: $fondo-main;
-    flex-direction: row;
-    align-items: center;
-    align-content: flex-end;
-}
-
-
 /* boton whatapp */
 .boton-whatsapp  {
     display: flex;
     position: fixed;
     bottom: 25px;
     right: 25px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     }
 .boton-whatsapp :hover{
     transform: scale(1.08);
     transition: 300ms;
-}
-
-h2 {
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* typo */
-@font-face {
-    font-family: "Uni Sans Heavy Caps";
-    src: url(../recursos/UniSansHeavy.otf);
-}
-
-h1 {
-    padding: 20px;
-    font-family: "Uni Sans Heavy Caps";
-}
-
-h3 {
-    font-family: "Uni Sans Heavy Caps";
-    padding: 5px;
-}
-h4 {
-    font-family: "Uni Sans Heavy Caps";
-    padding: 5px;
-    border:0px;
-    margin:0px;
 }
 /* boton arriba */
 .boton-arriba {
@@ -197,7 +57,6 @@ h4 {
     color: white;
     background-color: rgb(60, 55, 55);
 }
-
 /*Mobilelast - Max width*/
 @media (max-width: 720px) {
     .header {

@@ -3,7 +3,6 @@
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-/* headers */
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -38,38 +37,6 @@ a {
   font-weight: bold;
   padding: 20px; }
 
-/* footers */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #2dd881;
-  min-height: 15vh; }
-
-ul {
-  margin: 10px;
-  display: flex;
-  list-style: none; }
-  ul :hover {
-    transform: scale(1.05);
-    transition: 300ms; }
-
-.red-social {
-  width: 70px;
-  height: 70px; }
-
-/* typo y flex  empresas */
-.section-empresas {
-  display: flex;
-  font-family: "Uni Sans Heavy Caps";
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center; }
-
-/* mains */
 #main-index {
   display: flex;
   min-height: 65vh;
@@ -129,22 +96,25 @@ form {
   align-items: center;
   align-content: flex-end; }
 
-/* boton whatapp */
-.boton-whatsapp {
+.footer {
   display: flex;
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  width: 100px;
-  height: 100px; }
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #2dd881;
+  min-height: 15vh; }
 
-.boton-whatsapp :hover {
-  transform: scale(1.08);
-  transition: 300ms; }
+ul {
+  margin: 10px;
+  display: flex;
+  list-style: none; }
+  ul :hover {
+    transform: scale(1.05);
+    transition: 300ms; }
 
-h2 {
-  padding: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+.red-social {
+  width: 70px;
+  height: 70px; }
 
 /* typo */
 @font-face {
@@ -155,6 +125,10 @@ h1 {
   padding: 20px;
   font-family: "Uni Sans Heavy Caps"; }
 
+h2 {
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
 h3 {
   font-family: "Uni Sans Heavy Caps";
   padding: 5px; }
@@ -162,8 +136,30 @@ h3 {
 h4 {
   font-family: "Uni Sans Heavy Caps";
   padding: 5px;
-  border: 0px;
   margin: 0px; }
+
+/* typo y flex  empresas */
+.section-empresas {
+  display: flex;
+  font-family: "Uni Sans Heavy Caps";
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center; }
+
+/* boton whatapp */
+.boton-whatsapp {
+  display: flex;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 120px;
+  height: 120px; }
+
+.boton-whatsapp :hover {
+  transform: scale(1.08);
+  transition: 300ms; }
 
 /* boton arriba */
 .boton-arriba {

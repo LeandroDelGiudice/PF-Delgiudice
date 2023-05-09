@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(11, 11, 60);
+    background-color: $fondo-header;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav :hover {
+    color: rgb(61, 16, 16);
+    transform: scale(1.02);
+    transition: 300ms;
+}
+.logo :hover {
+    color: rgb(61, 16, 16);
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.header a img {
+    width: 160px;
+}
+
+/* navs */
+.nav ul {
+    display: flex;
+    list-style: none;
+    width: 900px;
+}
+     a {
+    text-decoration: none;
+    color: rgb(91, 91, 215);
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px;
+}
