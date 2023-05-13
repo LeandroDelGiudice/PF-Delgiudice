@@ -5,6 +5,7 @@
 
 .header {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   color: #0b0b3c;
   background-color: #6fedb7;
@@ -24,14 +25,12 @@
 
 /* navs */
 .nav ul, .logo :hover ul {
-  display: flex;
   list-style: none;
   width: 900px; }
 
 a {
   text-decoration: none;
   color: #5b5bd7;
-  font-size: medium;
   font-weight: bold;
   padding: 20px; }
 
@@ -42,6 +41,9 @@ a {
   background-image: url(../recursos/Imagenbase.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
+
+.col img {
+  border-radius: 10%; }
 
 #main-contacto {
   display: flex;
@@ -75,12 +77,16 @@ form {
   background-image: linear-gradient(to top, #3e3939, #efe6e6); }
 
 #main-profesionales {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
   display: flex;
-  align-content: flex-start;
-  justify-content: space-between;
-  align-items: baseline;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  align-content: center;
+  justify-content: space-evenly;
+  flex-direction: row;
   min-height: 65vh;
   color: #3d1010;
   background-image: linear-gradient(to top, #3e3939, #efe6e6); }
@@ -168,10 +174,15 @@ h4 {
   background-color: #3c3737; }
 
 /*Mobilelast - Max width*/
-@media (max-width: 720px) {
+@media (max-width: 719px) {
   .header {
-    justify-content: safe; }
+    flex-wrap: wrap;
+    justify-content: safe;
+    font-size: small; }
+  .header a img {
+    width: 70px; }
   .nav ul, .logo :hover ul {
-    align-items: self-start;
+    align-items: normal;
     display: list-item;
-    width: 250px; } }
+    max-width: 45vh;
+    margin: 0px; } }

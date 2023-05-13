@@ -18,7 +18,6 @@ h2 {
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 h3 {
     font-family: "Uni Sans Heavy Caps";
     padding: 5px;
@@ -60,14 +59,20 @@ h4 {
     background-color: rgb(60, 55, 55);
 }
 /*Mobilelast - Max width*/
-@media (max-width: 720px) {
+@media (max-width: 719px) {
     .header {
+        flex-wrap: wrap;
         justify-content: safe;
+        font-size: small;
+    }
+    .header a img {
+        width: 70px;
     }
 
     .nav ul {
-        align-items: self-start;
+        align-items: normal;
         display: list-item;
-        width: 250px;
+        max-width: 45vh;
+        margin:0px
     }
 }
