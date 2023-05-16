@@ -42,6 +42,9 @@ a {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.seccion-1-main {
+  background-color: rgba(150, 147, 147, 0.4); }
+
 .col img {
   border-radius: 10%; }
 
