@@ -22,13 +22,25 @@
 }
 
 /* navs */
+.bg-body-tertiary{
+    background-color: $fondo-header !important;
+
+}
+
 .nav ul {
     list-style: none;
-    width: 900px;
+    background-color: $fondo-header;
+    width: 800px;
 }
-     a {
+.nav-link {
     text-decoration: none;
+    color: rgb(91, 91, 215) !important;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.navbar-brand{
     color: rgb(91, 91, 215);
     font-weight: bold;
-    padding: 20px;
+    font-size: 30px;
 }
