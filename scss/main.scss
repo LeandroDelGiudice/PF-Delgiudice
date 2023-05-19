@@ -4,46 +4,6 @@
 @import '../utilities/header';
 @import '../utilities/mains';
 @import '../utilities/footer';
-/* wave */
-body {
-
-    margin: 0;
-    padding: 0;
-  }
-  
-  .wave {
-    display: block;
-    position: relative;
-    height: 40px;
-    width: 100%;
-    background: $fondo-header;
-    transform: scale(1, 1);
-  }
-  
-  .wave:before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100%;
-    width: 100%;
-    height: 200px;
-    right: -25%;
-    top: 40px;
-  }
-  
-  .wave:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100%;
-    width: 170%;
-    height: 300px;
-    background-color: $fondo-header;
-    left: -25%;
-    top: -240px;
-    clip-path: ellipse(100% 15% at -15%  100%);
-  }
-
 /* typo */
 @font-face {
     font-family: "Uni Sans Heavy Caps";
