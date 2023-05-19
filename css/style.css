@@ -88,6 +88,8 @@ form {
   min-height: 65vh;
   color: #3d1010;
   background-image: linear-gradient(to top, #3e3939, #efe6e6); }
+  #main-quienes-somos h4 {
+    padding: 8px; }
 
 #main-profesionales {
   --bs-gutter-x: 1.5rem;
@@ -109,6 +111,7 @@ form {
   flex-direction: row;
   align-items: center;
   align-content: flex-end;
+  padding: 8px;
   min-height: 65vh;
   color: #3d1010;
   background-image: linear-gradient(to top, #3e3939, #efe6e6); }
@@ -152,16 +155,16 @@ body {
   position: absolute;
   border-radius: 100%;
   width: 100%;
-  height: 300px;
+  height: 200px;
   right: -25%;
-  top: 20px; }
+  top: 40px; }
 
 .wave:after {
   content: "";
   display: block;
   position: absolute;
   border-radius: 100%;
-  width: 100%;
+  width: 170%;
   height: 300px;
   background-color: #6fedb7;
   left: -25%;
