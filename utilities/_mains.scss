@@ -6,13 +6,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-   .seccion-1-main{
-   background-color: rgba(150, 147, 147, 0.4);
-   }
-   .col
-        img{
-            border-radius: 10%;
-        }
+
+.seccion-1-main {
+    background-color: rgba(150, 147, 147, 0.4);
+}
+
+.col img {
+    border-radius: 10%;
+}
 
 #main-contacto {
     display: flex;
@@ -22,30 +23,34 @@
     align-content: space-between;
     @include colorsize-mains;
 }
-    form {
+
+form {
     width: 300px;
     margin: 0 auto;
-    color:rgb(161, 161, 230);
+    color: rgb(161, 161, 230);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
- }
-    .imput {
+}
+
+.imput {
     margin: 10px;
     font-style: italic;
- }
-    .enviar{
+}
+
+.enviar {
     margin: 10px;
     font-weight: 500;
-    color:  rgb(91, 91, 215);
+    color: rgb(91, 91, 215);
     background-color: rgb(45, 216, 129);
- }
-     
-      
+}
+
+
 #main-quienes-somos {
     @include colorsize-mains;
-    h4{
+
+    h4 {
         padding: 8px;
     }
-   
+
 }
 
 #main-profesionales {

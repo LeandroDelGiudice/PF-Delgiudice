@@ -4,28 +4,34 @@
 @import '../utilities/header';
 @import '../utilities/mains';
 @import '../utilities/footer';
+
 /* typo */
 @font-face {
     font-family: "Uni Sans Heavy Caps";
     src: url(../recursos/UniSansHeavy.otf);
 }
+
 h1 {
     padding: 20px;
     font-family: "Uni Sans Heavy Caps";
 }
+
 h2 {
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h3 {
     font-family: "Uni Sans Heavy Caps";
     padding: 5px;
 }
+
 h4 {
     font-family: "Uni Sans Heavy Caps";
     padding: 5px;
-    margin:0px;
+    margin: 0px;
 }
+
 /* typo y flex  empresas */
 .section-empresas {
     display: flex;
@@ -35,20 +41,23 @@ h4 {
     align-content: center;
     justify-content: space-around;
     align-items: center;
-   }
- /* boton whatapp */
-.boton-whatsapp  {
+}
+
+/* boton whatapp */
+.boton-whatsapp {
     display: flex;
     position: fixed;
     bottom: 25px;
     right: 25px;
     width: 120px;
     height: 120px;
-    }
-.boton-whatsapp :hover{
+}
+
+.boton-whatsapp :hover {
     transform: scale(1.08);
     transition: 300ms;
 }
+
 /* boton arriba */
 .boton-arriba {
     margin: 10px;
@@ -57,6 +66,7 @@ h4 {
     color: white;
     background-color: rgb(22, 24, 23);
 }
+
 /*Mobilelast - Max width*/
 @media (max-width: 719px) {
     .header {
@@ -64,11 +74,13 @@ h4 {
         justify-content: safe;
         font-size: small;
     }
+
     .header a img {
         width: 70px;
     }
+
     .boton-whatsapp {
         width: 85px;
         height: 85px;
     }
-    }
+}

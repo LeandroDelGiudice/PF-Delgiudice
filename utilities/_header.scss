@@ -34,13 +34,13 @@
 }
 .nav-link {
     text-decoration: none;
-    color: rgb(91, 91, 215) !important;
+    color: $texto-header !important;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
 }
 .navbar-brand{
-    color: rgb(91, 91, 215);
+    color: $texto-header;
     font-weight: bold;
     font-size: 30px;
 }
