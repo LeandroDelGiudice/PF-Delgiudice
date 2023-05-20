@@ -26,11 +26,6 @@
 .bg-body-tertiary {
   background-color: #6fedb7 !important; }
 
-.nav ul, .navbar-brand :hover ul {
-  list-style: none;
-  background-color: #6fedb7;
-  width: 800px; }
-
 .nav-link {
   text-decoration: none;
   color: #5b5bd7 !important;
