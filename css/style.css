@@ -4,10 +4,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .header {
-  /*  display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    color: rgb(11, 11, 60); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #6fedb7;
   /*  justify-content: space-between;
     align-items: center; */ }
@@ -193,4 +192,7 @@ h4 {
 @media (max-width: 425px) {
   #main-index {
     background-image: none;
-    background-color: #cfcece; } }
+    background-color: #cfcece; }
+  .boton-whatsapp {
+    width: 85px;
+    height: 85px; } }
