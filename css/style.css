@@ -8,8 +8,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #6fedb7;
-  /*  justify-content: space-between;
-    align-items: center; */ }
+  justify-content: space-between;
+  align-items: center; }
 
 .nav :hover, .navbar-brand :hover :hover {
   color: #3d1010;
