@@ -110,7 +110,7 @@ form {
   flex-direction: row;
   align-items: center;
   align-content: flex-end;
-  padding: 8px;
+  padding: 20px;
   min-height: 65vh;
   color: #3d1010;
   background-image: linear-gradient(to top, #3e3939, #efe6e6); }
