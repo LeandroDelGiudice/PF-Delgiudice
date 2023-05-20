@@ -9,8 +9,8 @@
   flex-wrap: wrap;
   color: #0b0b3c;
   background-color: #6fedb7;
-  justify-content: space-between;
-  align-items: center; }
+  /*  justify-content: space-between;
+    align-items: center; */ }
 
 .nav :hover, .navbar-brand :hover :hover {
   color: #3d1010;
@@ -110,7 +110,7 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*  align-content: flex-end; */
+  align-content: flex-end;
   padding: 8px;
   min-height: 65vh;
   color: #3d1010;

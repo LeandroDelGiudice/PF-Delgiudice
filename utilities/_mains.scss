@@ -71,7 +71,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-   /*  align-content: flex-end; */
+    align-content: flex-end;
     padding: 8px;
     @include colorsize-mains;
 }
