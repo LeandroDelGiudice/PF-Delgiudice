@@ -13,7 +13,7 @@
     transform: scale(1.02);
     transition: 300ms;
 }
-.logo :hover {
+.navbar-brand :hover {
     @extend .nav;
     transform: scale(1.05);
 }

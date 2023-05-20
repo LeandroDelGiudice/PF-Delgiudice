@@ -12,12 +12,12 @@
   justify-content: space-between;
   align-items: center; }
 
-.nav :hover, .logo :hover :hover {
+.nav :hover, .navbar-brand :hover :hover {
   color: #3d1010;
   transform: scale(1.02);
   transition: 300ms; }
 
-.logo :hover {
+.navbar-brand :hover {
   transform: scale(1.05); }
 
 .header a img {
@@ -27,7 +27,7 @@
 .bg-body-tertiary {
   background-color: #6fedb7 !important; }
 
-.nav ul, .logo :hover ul {
+.nav ul, .navbar-brand :hover ul {
   list-style: none;
   background-color: #6fedb7;
   width: 800px; }
@@ -189,16 +189,8 @@ h4 {
   color: white;
   background-color: #161817; }
 
-/*Mobilelast - Max width*/
-/* @media (max-width: 719px) {
-    .header {
-        flex-wrap: wrap;
-        justify-content: safe;
-        font-size: small;
-    }
-
-    .boton-whatsapp {
-        width: 85px;
-        height: 85px;
-    }
-} */
+/* /* /*Mobilelast - Max width*/
+@media (max-width: 425px) {
+  #main-index {
+    background-image: none;
+    background-color: #cfcece; } }
