@@ -190,11 +190,15 @@ h4 {
   background-color: #161817; }
 
 /*Mobilelast - Max width*/
-@media (max-width: 719px) {
-  .header {
-    flex-wrap: wrap;
-    justify-content: safe;
-    font-size: small; }
-  .boton-whatsapp {
-    width: 85px;
-    height: 85px; } }
+/* @media (max-width: 719px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: safe;
+        font-size: small;
+    }
+
+    .boton-whatsapp {
+        width: 85px;
+        height: 85px;
+    }
+} */
