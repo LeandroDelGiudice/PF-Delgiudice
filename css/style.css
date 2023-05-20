@@ -4,10 +4,10 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: #0b0b3c;
+  /*  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    color: rgb(11, 11, 60); */
   background-color: #6fedb7;
   /*  justify-content: space-between;
     align-items: center; */ }
