@@ -110,7 +110,7 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  align-content: flex-end;
+  /*  align-content: flex-end; */
   padding: 8px;
   min-height: 65vh;
   color: #3d1010;
