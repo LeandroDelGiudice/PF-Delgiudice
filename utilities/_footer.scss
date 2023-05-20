@@ -7,18 +7,20 @@
     min-height: 15vh;
 
 }
-     ul {
+
+ul {
     margin: 10px;
     display: flex;
     list-style: none;
-    :hover{
+
+    :hover {
         transform: scale(1.05);
         transition: 300ms;
-        }
+    }
 }
 
-.red-social{
+.red-social {
     width: 70px;
     height: 70px;
-    
+
 }
